@@ -7,6 +7,7 @@ import Button from './components/Button';
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si"
 
 export default function Home() {
+
     return (
         <main className="max-w-full w-[100vw] overflow-x-hidden flex flex-col items-center justify-center font-montserrat">
 
@@ -60,7 +61,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='flex flex-row justify-center items-center gap-20 mt-[200px] px-40'>
+            <div className='flex flex-row justify-center items-center gap-20 mt-[200px] px-[6vw] xl:px-[10vw]'>
                 <div className='flex flex-col justify-center gap-10'>
                     <h1 className='font-greenBrooks text-6xl'>Who Are we?</h1>
                     <p className='text-lg font-light text-white/90 text-justify'>The Digital Excellence society or Digex is Delhi Public School R.K.Puram&#39;s photography and film-making club. Founded in 2009, the Digex society is a group of passionate members who channel their creativity and out of the box thinking into creative fields like Photography, Film-making, Creative Design, Video editing and much more. Any student of the school can seize the opportunity to be a part of the club. At present, the club is over 60 members strong with students from all classes ( 6-12 ). The Digex society is invited to a plethora of competitions and events throughout the year that are on national and international levels. Our goal is to strive towards being the best in all fields and competitions we take part in.</p>
@@ -70,7 +71,7 @@ export default function Home() {
                         {/* <div className='w-full'></div> */}
                     </div>
                 </div>
-                <Image src="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg" alt='Picture' width={400} height={500} className='w-[400px] h-[450px] object-cover rounded-t-full' />
+                <Image src="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg" alt='Picture' width={400} height={500} className='w-[30vw] h-[33vw] xl:w-[400px] xl:h-[450px] object-cover rounded-t-full' />
             </div>
 
             <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')]`}></div>

@@ -1,8 +1,13 @@
 import { Montserrat, Press_Start_2P } from 'next/font/google'
-import './globals.css'
-import Cursor from './components/Cursor'
-
 import localFont from 'next/font/local'
+import Link from 'next/link';
+import './globals.css'
+
+import 'buffer';
+
+import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si"
+
+import Cursor from './components/Cursor';
 
 const greenBrooks = localFont({
     src: '../../public/fonts/GreenBrooks.otf',
@@ -18,11 +23,46 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
     return (
         <html lang="en">
             <body className={`${pressStart2P.variable} ${montserrat.variable} ${greenBrooks.variable}`}>
-                {children}
+
                 <Cursor />
+
+                <main className="max-w-full w-[100vw] overflow-x-hidden flex flex-col items-center justify-center font-montserrat">
+                    <div className='z-10 fixed top-0 left-0 max-w-full w-screen px-5 sm:px-14 md:px-24 flex flex-col sm:flex-row justify-between items-center gap-6 sm:gap-7 lg:gap-0 py-7 bgDot'>
+                        <p className='font-greenBrooks text-3xl'>Digex</p>
+                        <div className='flex items-center gap-5 sm:gap-7'>
+                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Home</Link>
+                            <Link href="/gallery" className='text-[7px] sm:text-[10px] font-pressStart'>Gallery</Link>
+                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Events</Link>
+                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Members</Link>
+                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Alumni</Link>
+                        </div>
+                    </div>
+
+                    {children}
+
+                    <div className='z-10 max-w-full w-screen flex flex-col lg:flex-row justify-between items-center gap-3 py-4 sm:gap-5 lg:gap-0 lg:py-7 lg:px-24 mt-[200px] bgDot'>
+                        <div className='flex-1 flex justify-start gap-7'>
+                            <Link href="/" className='text-2xl' data-cursor-color="#1877F2"><SiFacebook /></Link>
+                            <Link href="/" className='text-2xl' data-cursor-color="#d62976"><SiInstagram /></Link>
+                            <Link href="/" className='text-2xl' data-cursor-color="#ff0000"><SiYoutube /></Link>
+                        </div>
+                        <div className='flex-1 flex justify-center items-center gap-2 sm:gap-4 font-montserrat text-white/70'>
+                            <Link href="mailto:digex@dpsrkp.net" className='underline text-center text-sm sm:text-md text-white/90'>digex@dpsrkp.net</Link>
+                            <p className='text-sm sm:text-md'>|</p>
+                            <p className='text-sm sm:text-md'>All Rights Reserved &copy;</p>
+                        </div>
+
+                        <div className='flex-1 flex justify-end items-center gap-1 font-montserrat text-white/70'>
+                            <p className='text-xs sm:text-sm'>Designed & Developed by</p>
+                            <Link href="https://github.com/atharv777" target="_blank" className='text-sm text-white/85 hover:underline'>Atharv</Link>
+                        </div>
+                    </div>
+
+                </main>
             </body>
         </html>
     )

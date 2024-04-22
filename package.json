@@ -9,10 +9,8 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "bcrypt": "^5.1.1",
         "cloudinary": "^2.1.0",
         "framer-motion": "^11.0.28",
-        "fs": "^0.0.1-security",
         "next": "13.5.6",
         "react": "^18",
         "react-dom": "^18",
@@ -24,8 +22,6 @@
         "buffer": "^6.0.3",
         "eslint": "^8",
         "eslint-config-next": "13.5.6",
-        "imagemin": "^8.0.1",
-        "imagemin-jpegtran": "^7.0.0",
         "postcss": "^8",
         "tailwindcss": "^3"
     }

@@ -27,7 +27,9 @@ export async function GET(req, res) {
     //     return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
     // }
 
-
+    if (!process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER) {
+        return NextResponse.json({ message: 'Error fetching ENV' }, { status: 500 });
+    }
     try {
         const results = await cloudinary.v2.search
             .expression(`folder:${process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER}/*`)

@@ -1,0 +1,52 @@
+[
+    {
+        "year": "12th",
+        "members": [
+            {
+                "name": "Aikagra Gupta",
+                "role": "President",
+                "image": "/images/members/aikagra.png"
+            },
+            {
+                "name": "Aarav Dayal",
+                "role": "Member",
+                "image": "/images/members/aarav.png"
+            },
+            {
+                "name": "Aryamaan Goswamy",
+                "role": "Kicked",
+                "image": "/images/members/aryamaan.png"
+            },
+            {
+                "name": "Atharv Varshney",
+                "role": "hello boi",
+                "image": "/images/members/atharv.jpeg"
+            }
+        ]
+    },
+    {
+        "year": "11th",
+        "members": [
+            {
+                "name": "Aarav Dayal",
+                "role": "Member",
+                "image": "/images/members/aarav.png"
+            },
+            {
+                "name": "Aryamaan Goswamy",
+                "role": "Kicked",
+                "image": "/images/members/aryamaan.png"
+            },
+            {
+                "name": "Aikagra Gupta",
+                "role": "President",
+                "image": "/images/members/aikagra.png"
+            },
+            {
+                "name": "Atharv Varshney",
+                "role": "hello boi",
+                "image": "/images/members/atharv.jpeg"
+            }
+        ]
+    }
+]

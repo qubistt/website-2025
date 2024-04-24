@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-import Button from './components/Button';
+import Button from '../components/Button';
 
 export default function Home() {
 

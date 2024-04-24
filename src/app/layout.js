@@ -7,7 +7,7 @@ import 'buffer';
 
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si"
 
-import Cursor from './components/Cursor';
+import Cursor from '../components/Cursor';
 
 const greenBrooks = localFont({
     src: '../../public/fonts/GreenBrooks.otf',
@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
                         <div className='flex items-center gap-5 sm:gap-7'>
                             <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Home</Link>
                             <Link href="/gallery" className='text-[7px] sm:text-[10px] font-pressStart'>Gallery</Link>
-                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Events</Link>
-                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Members</Link>
-                            <Link href="/" className='text-[7px] sm:text-[10px] font-pressStart'>Alumni</Link>
+                            <Link href="/events" className='text-[7px] sm:text-[10px] font-pressStart'>Events</Link>
+                            <Link href="/members" className='text-[7px] sm:text-[10px] font-pressStart'>Members</Link>
+                            <Link href="/alumni" className='text-[7px] sm:text-[10px] font-pressStart'>Alumni</Link>
                         </div>
                     </div>
 

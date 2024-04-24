@@ -5,6 +5,15 @@
 :root {
   --foreground: #fff;
   --background: #000;
+  --border-bg: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #9fdaa4 20%,
+    #bbc1bf 40%,
+    #57c6e1 60%,
+    #b49fda 80%,
+    #d87aaf 100%
+  );
 }
 
 * {

@@ -29,15 +29,14 @@ export default function Home() {
             </div>
 
             {
-                membersList.map((item) => {
+                membersList.map((item, ind) => {
                     return (
-                        <div className='w-full px-10 flex flex-col gap-10 mb-24'>
+                        <div key={ind} className='w-full px-10 flex flex-col gap-10 mb-24'>
                             <h2 className='text-5xl font-greenBrooks'>{item.year} class</h2>
                             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
-                                {item.members.map((mem) => {
+                                {item.members.map((mem, _ind) => {
                                     return (
-
-                                        <div className={`relative p-[2.5px] group`}>
+                                        <div key={_ind} className={`relative p-[2.5px] group`}>
                                             <motion.div
                                                 variants={variants}
                                                 initial={"initial"}

@@ -13,7 +13,7 @@ export async function GET(req, res) {
         const results = await cloudinary.v2.search
             .expression(`folder:${process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER}/*`)
             .sort_by("public_id", "desc")
-            .max_results(10)
+            .max_results(100)
             .execute();
         return NextResponse.json(results, { status: 200 });
     } catch (error) {

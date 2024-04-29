@@ -14,8 +14,8 @@ const greenBrooks = localFont({
     variable: '--font-green-brooks'
 })
 
-const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
-const pressStart2P = Press_Start_2P({ subsets: ['latin'], weight: "400", variable: '--font-press-start' })
+const montserrat = Montserrat({ subsets: ['latin'], display: 'swap', variable: '--font-montserrat' })
+const pressStart2P = Press_Start_2P({ subsets: ['latin'], weight: "400", display: 'swap', variable: '--font-press-start' })
 
 export const metadata = {
     title: 'Digex Society',

@@ -39,12 +39,21 @@ const Cursor = () => {
         let elems = [];
 
         const mainFunc = (e) => {
-            if (e.target.tagName === "DIV" || e.target.tagName === "SECTION" || e.target.tagName === "MAIN") {
+            if (e.target.tagName === "DIV" || e.target.tagName === "SECTION" || e.target.tagName === "MAIN" || e.target.tagName === "BODY") {
                 elems = document.querySelectorAll('a, button, [data-no-blend], [data-cursor-color]');
                 elems.forEach((elem) => {
                     elem.addEventListener('mouseenter', handleMouseEnter);
                     elem.addEventListener('mouseleave', handleMouseLeave);
                 });
+
+
+                const elems2 = [...document.querySelectorAll('*')];
+                if (elems2.length) {
+                    const elems3 = elems2.filter(x => ![...elems].includes(x));
+                    elems3.forEach((elem) => {
+                        elem.addEventListener('mouseenter', handleMouseLeave);
+                    });
+                }
             }
 
 

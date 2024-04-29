@@ -1,6 +1,8 @@
 'use client'
 import { motion } from 'framer-motion';
-import Gallery from '../../components/Gallery';
+import alumniList from "./alumni.json"
+import Card from '@/components/Card';
+
 
 export default function Home() {
 
@@ -18,8 +20,26 @@ export default function Home() {
                 </div>
 
 
-                <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')]`}></div>
             </div>
+
+            {
+                alumniList.map((item, ind) => {
+                    return (
+                        <div key={ind} className='w-full px-10 flex flex-col gap-10 mb-24'>
+                            <h2 className='text-5xl font-greenBrooks'>Batch of {item.year}</h2>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
+                                {item.members.map((mem, _ind) => {
+                                    return (
+                                        <Card key={_ind} data={mem} />
+                                    )
+                                })}
+                            </div>
+                        </div >
+                    )
+                })
+            }
+
+            <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')]`}></div>
         </>
     )
 }

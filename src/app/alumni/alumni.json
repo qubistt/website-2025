@@ -1,1 +1,898 @@
-{}
+[
+    {
+        "year": "2023-24",
+        "members": [
+            {
+                "name": "Faizah Naqvi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Smriti Srivastava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Hashmeet Kaur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Jupman Sandhu",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Abhilasha Achary",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shaurya Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shaurya Gambhir",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ananya Srivastava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anannya Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Tanvi Agrawal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gurmani Kaur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Mohit Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Medhashree Saxena",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Adi Mathur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kaina",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sara Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Diya Singhal",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "year": "2022-23",
+        "members": [
+            {
+                "name": "Sana Chawla",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Samiya Bhatia",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ishita Bhargava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aditya Banka",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Pratishtha Batra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ritvik Kumar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aaditya Gaur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Abhishek Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Myra Vaish",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aadhya Dhar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ananya Asthana",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ayushman Mishra ",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Chaitanya Arora",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Divyam Prusty",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ekansh Sahu",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kabir Bhatia",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Manya Rajput",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Pragya Srivastava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ritwik Sethi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Samannita Halder",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shivangi Priya",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Yash Aggarwal",
+                "role": "Member"
+            }
+        ]
+    },
+    {
+        "year": "2021-22",
+        "members": [
+            {
+                "name": "Kushagra Pandey",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Siya Chhabra",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Vivaann Pahwa",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Vansh Jain",
+                "role": "Vice-President",
+                "image": ""
+            },
+            {
+                "name": "Adarsh Kumar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Agrima Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anishka Kakkar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ayan B Das",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Bharat Bhargava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gopal Krishan Halder",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Medhavi Devraj",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Pulkit Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Saanvi Sekhri",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Satvik Khurana",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Suhaani Bhandari",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sarthak Goel",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aryan Gulati",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Armaan Gulaty",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Garrv Loddha Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sanit Austin Adhikari",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Saathvik Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anoushka Garg",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vidur Sahni",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Priyansh Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Krish Gupta",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2020-21",
+        "members": [
+            {
+                "name": "Keshav Gupta",
+                "role": "Senior Member"
+            },
+            {
+                "name": "Vaidurya Nath",
+                "role": "Senior Member"
+            },
+            {
+                "name": "Divyanshi Chauhan",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arushi Kejriwal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Piya Paul",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Nitya Tuli",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Diya Mahapatra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Priyanshu Sinha",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Telewe Therieh",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2019-20",
+        "members": [
+            {
+                "name": "Tanish Goel",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Aravika Khosla",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Nikhil Garg",
+                "role": "Vice-President",
+                "image": ""
+            },
+            {
+                "name": "Veronica Mathur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Abhijay Singh Bhandari",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Pulan Pattanaiak",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Rahul Bouri",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arnav Kundra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Riya Oak",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Upmanyu Das",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shubhansh Arora",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aditya Batra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anish Khosla",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Drashik Gogna",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kanishk Srivastava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gaurank Chadha",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2018-19",
+        "members": [
+            {
+                "name": "Ishika Gupta",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Shreya Mandol",
+                "role": "Director",
+                "image": ""
+            },
+            {
+                "name": "Vaibhav Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sarthak Saini",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ayush Chinmay",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Mehak Puri",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Abhijeet Manohar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Rohan Sethi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Mansi Vikram",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Yashvardhan Ahlawat",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kartik Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sanjna Mehrotra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sidhart Grover",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ansh Arora",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2017-18",
+        "members": [
+            {
+                "name": "Prithvi Paul Chatrath",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Chhavi Chopra",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Shaurya Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Akshay Khandewal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shivin Uppal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Udhav Sinha",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Himanshu Jain",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2016-17",
+        "members": [
+            {
+                "name": "Divit Jawa",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aditya Anmol",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ananya Chandra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kripa Gulati",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Malaika Puri",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arsh Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arsh Karwal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Diwakar Baweja",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sara Wadhwa",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2015-16",
+        "members": [
+            {
+                "name": "Neel Bakshi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Rohin Sikka",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aarushee Agrawal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shivan Mittal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Siddhartha Kapuria",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Kaveri Mahanta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anumay Ashish Mishra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Devansh Gandhi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Rahul Vats",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sayyam Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aryaman Bose",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2014-15",
+        "members": [
+            {
+                "name": "Sidhant Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Tejas Sachdeva",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Anish Lall",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "S. Rohit",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Karmanya Singh",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sanyaa Mehrotra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Siddharth Bhogra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Alabhya Vaibhav",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Adya Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vasudha Mathur",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Madhav Narayan",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2013-14",
+        "members": [
+            {
+                "name": "Ushmita Seth",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Pranav Aditya",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Priyanka Bains",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shreyas Dudhlani",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Laksh Goel",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aditya Goel",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Akshay Lall",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ambar Aneja",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Antara Joglekar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arjun Kakkar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Chaitanya Sachdeva",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Raghav Munjal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shourya Khanna",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Udyan Arora",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vasudha Vijaysheel",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vibhav Nanda",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "2010",
+        "members": [
+            {
+                "name": "Chhavi Mehta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Nimit Jain",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Devansh Vaish",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Yatin Srivastava",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shreya Ahuja",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Akshita Khosla",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ravin Raori",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Manan Shishodia",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ushmita Seth",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Veer Misra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Dhruv Agarwal",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    }
+]

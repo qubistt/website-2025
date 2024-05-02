@@ -21,7 +21,7 @@ export default function Home() {
 
                     <div className='relative -mt-4 sm:-mt-7' data-no-blend>
                         <div className='z-0 absolute top-[-37%] left-[-37%] w-[175%] h-[175%] bg-[radial-gradient(50%_50%_at_50%_50%,_#FFFFFF_0%,_rgba(255,255,255,0)_100%)] opacity-40 blur-[100px]'></div>
-                        <Image priority src="/images/lens.png" alt="A lens" width={250} height={200} className='z-[1] w-[125px] xs:w-[150px] sm:w-[200px] md:w-[250px]' />
+                        <img src="/images/lens.png" alt="A lens" style={{height:"200px", width:"250px"}} className='z-[1] w-[125px] xs:w-[150px] sm:w-[200px] md:w-[250px]' />
                     </div>
                 </div>
                 <div className='flex justify-center items-center flex-col sm:flex-row gap-5 sm:gap-10 w-full'>
@@ -57,7 +57,7 @@ export default function Home() {
                         <Button wfull href="/gallery">Our Work</Button>
                     </div>
                 </div>
-                <Image src="https://images.pexels.com/photos/1245066/pexels-photo-1245066.jpeg" alt='Picture' width={400} height={500} className=' w-[70vw] h-[78vw] xs:w-[50vw] xs:h-[56vw] lg:w-[30vw] lg:h-[33vw] xl:w-[400px] xl:h-[450px] object-cover rounded-t-full' />
+                <img src="https://images.pexels.com/photos/1245066/pexels-photo-1245066.jpeg" style={{height: "400px", width: "500px"}} className=' w-[70vw] h-[78vw] xs:w-[50vw] xs:h-[56vw] lg:w-[30vw] lg:h-[33vw] xl:w-[400px] xl:h-[450px] object-cover rounded-t-full' />
             </div>
 
             <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')]`}></div>

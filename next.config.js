@@ -11,7 +11,7 @@ module.exports = {
             config.resolve.fallback.net = false
             config.resolve.fallback.child_process = false
         }
-
         return config;
     },
+    output: "export"
 };

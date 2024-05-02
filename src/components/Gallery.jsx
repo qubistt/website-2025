@@ -65,16 +65,14 @@ export default function Gallery() {
                 media: [640, 1024, 1280],
             }}
             render={({ id, public_id, blurDataUrl }) => (
-                <Image
+                <img
                     key={id}
                     alt="Picture by Digex Clan"
                     className="transform rounded-lg brightness-100 transition will-change-auto hover:brightness-[1.2]"
-                    style={{ transform: "translate3d(0, 0, 0)" }}
+                    style={{ transform: "translate3d(0, 0, 0)", width:"720px" }}
                     placeholder="blur"
                     blurDataURL={blurDataUrl}
                     src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.webp`}
-                    width={720}
-                    height={480}
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, (max-width: 1536px) 33vw, 25vw"
                     data-cursor-color="#ff00c3"
                     onClick={() => { window.open(`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1/${public_id}.jpg`) }}

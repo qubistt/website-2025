@@ -7,7 +7,7 @@ import { useIntersection } from '@mantine/hooks';
 export default function Gallery() {
     const [images, setImages] = useState([])
     const [n, setN]=useState(10)
-    const containerRef = useRef<HTMLDivElement>(null)
+    const containerRef = useRef(null)
     const { ref, entry } = useIntersection({
         root: containerRef.current,
         threshold: 1,

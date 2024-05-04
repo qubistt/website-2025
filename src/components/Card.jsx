@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
-import Image from 'next/image';
-import { motion, stagger, useAnimate } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function Card({ data }) {
 
@@ -50,56 +49,9 @@ export default function Card({ data }) {
                         data-no-blend={true}
                     />
                 </div> */}
-
-                {/* <TextGenerate words="Aikagra is a femboy and he love 5 year old girls" /> */}
-
                 <p className='text-xl font-medium'>{data.name}</p>
                 <p className='text-md font-extralight'>{data.role}</p>
             </div>
         </div>
     )
 }
-
-const TextGenerate = ({ words }) => {
-    const [scope, animate] = useAnimate();
-    let wordsArray = words.split(" ");
-    useEffect(() => {
-        animate(
-            "span",
-            {
-                opacity: 1,
-            },
-            {
-                duration: 1.5,
-                delay: stagger(0.3),
-            }
-        );
-    }, [scope.current]);
-
-    const renderWords = () => {
-        return (
-            <motion.div ref={scope}>
-                {wordsArray.map((word, idx) => {
-                    return (
-                        <motion.span
-                            key={word + idx}
-                            className="text-white opacity-0"
-                        >
-                            {word}{" "}
-                        </motion.span>
-                    );
-                })}
-            </motion.div>
-        );
-    };
-
-    return (
-        <div className="mb-10 px-5">
-            <div className="mt-4">
-                <div className=" text-white text-2xl font-greenBrooks text-center">
-                    {renderWords()}
-                </div>
-            </div>
-        </div>
-    );
-};

@@ -80,7 +80,10 @@ const Cursor = () => {
             ? <>
                 <div
                     className={`z-[100] w-3 h-3 fixed flex justify-center items-center p-[1px] rounded-full pointer-events-none transition duration-300 -translate-x-1/2 -translate-y-1/2 ${hoveredElement == "data-no-blend" ? "bg-white mix-blend-normal" : hoveredElement == "BUTTON" || hoveredElement == "A" || hoveredElement == "IMG" ? `scale-[350%] mix-blend-normal` : "bg-white mix-blend-difference"}`}
-                    style={{ left: `${position.x}px`, top: `${position.y}px`, backgroundColor: hoveredElement == "BUTTON" || hoveredElement == "A" || hoveredElement == "IMG" ? cursorColor : "#fff" }}
+                    style={{
+                        left: `${position.x}px`, top: `${position.y}px`,
+                        backgroundColor: hoveredElement == "BUTTON" || hoveredElement == "A" || hoveredElement == "IMG" ? cursorColor : "#fff"
+                    }}
                 >
                     {
                         hoveredElement == "BUTTON" || hoveredElement == "A" || hoveredElement == "IMG"

@@ -13,7 +13,7 @@ export default function Home() {
                         initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.2 } }}
                         className='flex-1 w-full'
                     >
-                        <Button wfull href="https://digexclan.com/24/invite">Download Prompt</Button>
+                        <Button wfull href="https://docs.google.com/document/d/1jpwa4MW1vZ2tJWpbBU19Zv48o8BrIgHRrfXgzvazBYY/edit?usp=sharing">Download Prompt</Button>
                     </motion.div>
                 </div>
             )

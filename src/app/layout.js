@@ -3,11 +3,11 @@ import localFont from 'next/font/local'
 import Link from 'next/link';
 import './globals.css'
 
-import 'buffer';
-
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si"
 
 import Cursor from '../components/Cursor';
+import Notification from '../components/Notification';
+import Navbar from '../components/Navbar';
 
 const greenBrooks = localFont({
     src: '../../public/fonts/GreenBrooks.otf',
@@ -24,23 +24,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
+    const notification = "Hi-Res Prompts released for Digex 2024."
+    const link = "/events/hires"
+
     return (
         <html lang="en">
             <body className={`${pressStart2P.variable} ${montserrat.variable} ${greenBrooks.variable}`}>
 
                 <Cursor />
 
+                <Notification notification={notification} link={link} />
+
                 <main className="max-w-full w-[100vw] overflow-x-hidden flex flex-col items-center justify-center font-montserrat">
-                    <div className='z-10 fixed top-0 left-0 max-w-full w-screen px-5 sm:px-14 md:px-24 flex flex-col sm:flex-row justify-between items-center gap-6 sm:gap-7 lg:gap-0  py-4 xs:py-7 bgDot'>
-                        <p className='font-greenBrooks text-3xl'>Digex</p>
-                        <div className='flex items-center gap-4 xs:gap-5 sm:gap-7'>
-                            <Link href="/" className='text-[6px] xs:text-[7px] sm:text-[10px] font-pressStart'>Home</Link>
-                            <Link href="/gallery" className='text-[6px] xs:text-[7px] sm:text-[10px] font-pressStart'>Gallery</Link>
-                            <Link href="/events" className='text-[6px] xs:text-[7px] sm:text-[10px] font-pressStart'>Events</Link>
-                            <Link href="/members" className='text-[6px] xs:text-[7px] sm:text-[10px] font-pressStart'>Members</Link>
-                            <Link href="/alumni" className='text-[6px] xs:text-[7px] sm:text-[10px] font-pressStart'>Alumni</Link>
-                        </div>
-                    </div>
+                    <Navbar notification={notification} />
 
                     {children}
 

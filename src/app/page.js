@@ -1,6 +1,5 @@
 'use client'
-import Image from 'next/image';
-import Link from 'next/link';
+
 import { motion } from 'framer-motion';
 
 import Button from '../components/Button';
@@ -48,7 +47,9 @@ export default function Home() {
                 </div>
             </div> */}
 
-            <div className='flex flex-col lg:flex-row justify-center items-center gap-20 mt-0 sm:mt-[200px] px-[5vw] sm:px-[6vw] xl:px-[10vw]' id="about">
+            <iframe width="914" height="514" className='w-[90vw] h-[calc(0.56*90vw)] sm:w-[80vw] sm:h-[calc(0.56*80vw)] max-h-[calc(100vh-100px)] max-w-[calc(1.77*calc(100vh-100px))] rounded-2xl' src="https://www.youtube.com/embed/pQGoO0g_CEk" title="Digex 2024 Trailer" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div className='flex flex-col lg:flex-row justify-center items-center gap-20 mt-[100px] sm:mt-[200px] px-[5vw] sm:px-[6vw] xl:px-[10vw]' id="about">
                 <div className='flex flex-col justify-center gap-6 sm:gap-10'>
                     <h1 className='font-greenBrooks text-4xl xs:text-5xl sm:text-6xl'>Who Are we?</h1>
                     <p className='text-[12px] xs:text-md sm:text-lg font-light text-white/90 text-justify'>The Digital Excellence society or Digex is Delhi Public School R.K.Puram&#39;s photography and film-making club. Founded in 2009, the Digex society is a group of passionate members who channel their creativity and out of the box thinking into creative fields like Photography, Film-making, Creative Design, Video editing and much more. Any student of the school can seize the opportunity to be a part of the club. At present, the club is over 60 members strong with students from all classes ( 6-12 ). The Digex society is invited to a plethora of competitions and events throughout the year that are on national and international levels. Our goal is to strive towards being the best in all fields and competitions we take part in.</p>
@@ -58,6 +59,19 @@ export default function Home() {
                     </div>
                 </div>
                 <img src="https://images.pexels.com/photos/1245066/pexels-photo-1245066.jpeg" style={{ height: "400px", width: "500px" }} className=' w-[70vw] h-[78vw] xs:w-[50vw] xs:h-[56vw] lg:w-[30vw] lg:h-[33vw] xl:w-[400px] xl:h-[450px] object-cover rounded-t-full' />
+            </div>
+
+            <div className='flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 mt-[100px] sm:mt-[200px] px-[5vw] sm:px-[6vw] xl:px-[20vw]'>
+                <div className='flex flex-col items-center justify-center gap-4'>
+                    <img src="/images/sarikakaushal.jpg" style={{ width: "400px" }} className=' w-[70vw] xs:w-[50vw] lg:w-[30vw] xl:w-[200px] rounded-xl' />
+                    <div className='flex flex-col items-center justify-center w-max'>
+                        <p className='text-xl font-bold text-white/90'>Mrs. Sarika Kaushal</p>
+                        <p className='text-sm font-light text-white/75'>Founder and Teacher-in-Charge</p>
+                    </div>
+                </div>
+                <div className='flex flex-col justify-center'>
+                    <p className='text-md xs:text-lg sm:text-xl font-light text-white/90 text-justify'>Mrs. Kaushal founded Digex in 2009, and has been the club&#39;s teaides the club leadership in planning and organizing events, and mentors the club&#39;s junior members.</p>
+                </div>
             </div>
 
             <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')]`}></div>

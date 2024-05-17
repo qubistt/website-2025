@@ -42,9 +42,9 @@ export default function RootLayout({ children }) {
 
                     <div className='z-10 max-w-full w-screen flex flex-col lg:flex-row justify-between items-center gap-3 py-4 sm:gap-5 lg:gap-0 lg:py-7 lg:px-24 mt-[200px] bgDot'>
                         <div className='flex-1 flex justify-start gap-7'>
-                            <Link href="/" className='text-2xl' data-cursor-color="#1877F2"><SiFacebook /></Link>
-                            <Link href="/" className='text-2xl' data-cursor-color="#d62976"><SiInstagram /></Link>
-                            <Link href="/" className='text-2xl' data-cursor-color="#ff0000"><SiYoutube /></Link>
+                            <Link href="https://www.facebook.com/digexsociety/" className='text-2xl' data-cursor-color="#1877F2"><SiFacebook /></Link>
+                            <Link href="https://www.instagram.com/digexsociety/?hl=en" className='text-2xl' data-cursor-color="#d62976"><SiInstagram /></Link>
+                            <Link href="https://www.youtube.com/@digexclan" className='text-2xl' data-cursor-color="#ff0000"><SiYoutube /></Link>
                         </div>
                         <div className='flex-1 flex justify-center items-center gap-2 sm:gap-4 font-montserrat text-white/70'>
                             <Link href="mailto:digex@dpsrkp.net" className='underline text-center text-sm sm:text-md text-white/90'>digex@dpsrkp.net</Link>
@@ -53,8 +53,7 @@ export default function RootLayout({ children }) {
                         </div>
 
                         <div className='flex-1 flex justify-end items-center gap-1 font-montserrat text-white/70'>
-                            <p className='text-xs sm:text-sm'>Designed & Developed by</p>
-                            <Link href="https://github.com/atharv777" target="_blank" className='text-sm text-white/85 hover:underline'>Atharv</Link>
+
                         </div>
                     </div>
 

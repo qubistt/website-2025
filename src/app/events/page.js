@@ -23,13 +23,7 @@ export default function Home() {
                         initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.1 } }}
                         className='flex-1 w-full'
                     >
-                        <Button wfull href="https://digexclan.com/24/reg">Register Here</Button>
-                    </motion.div>
-                    <motion.div
-                        initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.2 } }}
-                        className='flex-1 w-full'
-                    >
-                        <Button wfull href="https://digexclan.com/24/invite">Download Brochure</Button>
+                        <Button wfull href="/events/submission">Submit Here</Button>
                     </motion.div>
                 </div>
 

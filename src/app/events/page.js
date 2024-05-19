@@ -23,7 +23,7 @@ export default function Home() {
                         initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.1 } }}
                         className='flex-1 w-full'
                     >
-                        <Button wfull href="/events/submission">Submit Here</Button>
+                        <Button wfull href="/events/results">View Digex 2024 results</Button>
                     </motion.div>
                 </div>
 
@@ -84,7 +84,6 @@ const Card = (props) => {
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}
-        // onClick={() => { window.open(`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1/${public_id}.jpg`) }}
         >
             <motion.div className="group" variants={cardVariants}>
 
@@ -113,8 +112,8 @@ const Card = (props) => {
                     className="absolute inset-0 rounded-[10px] z-[1] will-change-transform group-hover:[backgroundImage:var(--border-bg)] transition duration-500"
                 />
 
-                <div className="relative z-[5] rounded-[10px]" onClick={() => { router.push(`/events/${props.name}`) }}>
-                    <img src={props.src} className='rounded-[12px]' data-cursor-color="#fff" />
+                <div className="relative z-[5] rounded-[10px]">
+                    <img src={props.src} className='rounded-[12px]' />
                 </div>
             </motion.div>
         </motion.div>

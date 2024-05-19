@@ -67,11 +67,7 @@ export default function Home() {
                     <p className='text-md sm:text-lg font-light text-white/90 text-center'>Explore our annual symposium and join us as we celebrate creativity, passion, and the art of photography.</p>
                 </div>
 
-                {/* <Countdown date={1715340600000} renderer={renderer} /> */}
-
-                <div className='flex justify-center items-center flex-col w-full'>
-                    <p className='text-xl xs:text-2xl sm:text-4xl font-semibold'>Prompts Coming Soon...</p>
-                </div>
+                {/* <Countdown date={1716340600000} renderer={renderer} /> */}
 
             </div>
 

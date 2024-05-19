@@ -68,10 +68,6 @@ export default function Home() {
                 </div>
 
                 {/* <Countdown date={1715340600000} renderer={renderer} /> */}
-
-                <div className='flex justify-center items-center flex-col w-full'>
-                    <p className='text-xl xs:text-2xl sm:text-4xl font-semibold'>Prompts Coming Soon...</p>
-                </div>
             </div>
 
             <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')80%]`}></div>

@@ -24,8 +24,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-    const notification = "Submission Links released for Digex 2024."
-    const link = "/events/submission"
+    const notification = "View results of Digex 2024."
+    const link = "/events/results"
 
     return (
         <html lang="en">

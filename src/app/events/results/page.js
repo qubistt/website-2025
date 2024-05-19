@@ -234,7 +234,7 @@ export default function Results() {
                             <span>Tagore International School Vasant Vihar</span>
                         </div>
                         <div className='w-2/5 md:w-1/4 flex flex-col gap-1 justify-center'>
-                            <div className='px-3 my-1 text-xs'>Kushagra Gupta</div>
+                            <div className='px-3 my-1 text-xs'>Aradhya Bhola</div>
                         </div>
                     </div>
                     <div className='flex flex-row items-stretch border-[rgba(255,255,255,0.15)] border-b'>
@@ -256,7 +256,7 @@ export default function Results() {
                             <span>Summer Field School</span>
                         </div>
                         <div className='w-2/5 md:w-1/4 flex flex-col gap-1 justify-center'>
-                            <div className='px-3 my-1 text-xs'>Aradhyab Hola</div>
+                            <div className='px-3 my-1 text-xs'>Kushagra Gupta</div>
                         </div>
                     </div>
                 </div>

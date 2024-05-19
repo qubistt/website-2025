@@ -49,13 +49,13 @@ export default function Results() {
                 <h2 className='text-5xl font-greenBrooks text-center'>Hi-Res Winners</h2>
                 <div className='w-full md:w-3/4 lg:w-3/5 flex flex-col bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.15)] rounded-md text-xs sm:text-sm md:text-base'>
                     <div className='flex flex-row items-stretch border-[rgba(255,255,255,0.15)] border-b'>
-                        <div className='w-1/5 md:w-1/5 md:w-1/4 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)] flex items-center justify-center'>
+                        <div className='w-1/5 md:w-1/4 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)] flex items-center justify-center'>
                             <span>First</span>
                         </div>
-                        <div className='w-2/5 md:w-2/5 md:w-1/2 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)] flex items-center'>
+                        <div className='w-2/5 md:w-1/2 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)] flex items-center'>
                             <span>Delhi Public School Bhopal</span>
                         </div>
-                        <div className='w-2/5 md:w-2/5 md:w-1/4 flex flex-col gap-1'>
+                        <div className='w-2/5 md:w-1/4 flex flex-col gap-1'>
                             <div className='px-3 mt-1 text-xs'>Aadie Srivastava</div>
                             <div className='px-3 text-xs'>Harshit Tilante</div>
                             <div className='px-3 text-xs'>Saloni Dhakar</div>

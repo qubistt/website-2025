@@ -3,73 +3,23 @@
         "year": "12th",
         "members": [
             {
-                "name": "Aikagra Gupta",
-                "role": "Core",
+                "name": "Aditya Goel",
+                "role": "CORE",
                 "image": ""
             },
             {
-                "name": "Niyati Chauhan",
-                "role": "Core",
+                "name": "Advaith Sai Panda",
+                "role": "CORE",
                 "image": ""
             },
             {
-                "name": "Tejas Chowdhary",
-                "role": "Core",
+                "name": "Ishan Garg",
+                "role": "CORE",
                 "image": ""
             },
             {
-                "name": "Samriddhi",
-                "role": "Core",
-                "image": ""
-            },
-            {
-                "name": "Vishesh Chaurasia",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Tanisha Singhania",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shilky Agrawal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Muanhlunsang Guite",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shaurya Datta",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Siyona Arora",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Advaitt Pahwa",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shiven Gupta",
-                "role": "Member",
-                "image": ""
-            }
-        ]
-    },
-    {
-        "year": "11th",
-        "members": [
-            {
-                "name": "Shaurya Pratap Srivastava",
-                "role": "Member",
+                "name": "Rajvir Ajmani",
+                "role": "CORE",
                 "image": ""
             },
             {
@@ -78,22 +28,7 @@
                 "image": ""
             },
             {
-                "name": "Rajvir Ajmani",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Gauransh Sharma",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Saanvi Goel",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Gargi Panda",
+                "name": "Ananya Shrivastav",
                 "role": "Member",
                 "image": ""
             },
@@ -103,57 +38,7 @@
                 "image": ""
             },
             {
-                "name": "Suhaan Oberoi",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Eshita Agrawal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Avaaniee A Lunia",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Sonam Lhadon",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Manvik Kumar",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Gunika Meena",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Omya Prakash",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Sonakshi Segal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Vaishnavi Singal",
-                "role": "Member",
-                "image": ""
-            },
-            {
                 "name": "Ashwika Sharma",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Yasha Kansotia",
                 "role": "Member",
                 "image": ""
             },
@@ -163,37 +48,92 @@
                 "image": ""
             },
             {
+                "name": "Avaaniee A Lunia",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Eshita Agrawal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gargi Panda",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gauransh Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Gunika Meena",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Manvik Kumar",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Omya Prakash",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Saanvi Goel",
+                "role": "Member",
+                "image": ""
+            },
+            {
                 "name": "Shambhavi Garg",
                 "role": "Member",
                 "image": ""
             },
             {
-                "name": "Aditya Goel",
+                "name": "Shaurya Pratap Srivastava",
                 "role": "Member",
                 "image": ""
             },
             {
-                "name": "Jaiveer",
+                "name": "Sonakshi Segal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sonam Lhadon",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Suhaan Oberoi",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vaishnavi Singal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Yasha Kansotia",
                 "role": "Member",
                 "image": ""
             }
         ]
     },
     {
-        "year": "10th",
+        "year": "11th",
         "members": [
             {
+                "name": "Aamna Beg",
+                "role": "Member",
+                "image": ""
+            },
+            {
                 "name": "Aarohi Duggal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Kavin Chaudhary",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Saanvi Bhartia",
                 "role": "Member",
                 "image": ""
             },
@@ -203,12 +143,7 @@
                 "image": ""
             },
             {
-                "name": "Navika Yadav",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Aamna Beg",
+                "name": "Arhaan Gupta",
                 "role": "Member",
                 "image": ""
             },
@@ -218,32 +153,37 @@
                 "image": ""
             },
             {
+                "name": "Kavin Chaudhary",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Advwita Vishal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Navika Yadav",
+                "role": "Member",
+                "image": ""
+            },
+            {
                 "name": "Rishav Mukherjee",
                 "role": "Member",
                 "image": ""
             },
             {
-                "name": "Arhaan Gupta",
+                "name": "Saanvi Bhartia",
                 "role": "Member",
                 "image": ""
             }
         ]
     },
     {
-        "year": "9th",
+        "year": "10th",
         "members": [
             {
                 "name": "Ayush Goyal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Rianna Sachdev ",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Sidharth Modi",
                 "role": "Member",
                 "image": ""
             },
@@ -253,22 +193,62 @@
                 "image": ""
             },
             {
-                "name": "Reanna Batra ",
-                "role": "Member",
-                "image": ""
-            },
-            {
                 "name": "Manya Gupta",
                 "role": "Member",
                 "image": ""
             },
             {
-                "name": "Samanyu Gupta ",
+                "name": "Reanna Batra",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Devansh Saini",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Rianna Sachdev",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Samanyu Gupta",
                 "role": "Member",
                 "image": ""
             },
             {
                 "name": "Satvik Daksh Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Sidharth Modi",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "year": "9th",
+        "members": [
+            {
+                "name": "Adith Bharihoke",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Arnav Agarwal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vihaan Segal",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Vihaan Sureka",
                 "role": "Member",
                 "image": ""
             }
@@ -278,22 +258,7 @@
         "year": "8th",
         "members": [
             {
-                "name": "Arnav Agarwal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Vihaan Sureka",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Adith Bharihoke",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Vihaan Segal",
+                "name": "Shiven Batra",
                 "role": "Member",
                 "image": ""
             }
@@ -303,7 +268,7 @@
         "year": "7th",
         "members": [
             {
-                "name": "Shiven Batra",
+                "name": "Kiaan Bhatia",
                 "role": "Member",
                 "image": ""
             }

@@ -14,20 +14,26 @@ export default function Home() {
                     >
                         <h1 className='font-greenBrooks text-8xl'>Events</h1>
                     </motion.div>
-                    <p className='text-md sm:text-lg font-light text-white/90 text-center'>Explore our annual symposium and join us as we celebrate creativity, passion, and the art of photography.</p>
+                    <p className='font-light text-center text-md sm:text-lg text-white/90'>Explore our annual symposium and join us as we celebrate creativity, passion, and the art of photography.</p>
                 </div>
 
 
-                <div className='flex justify-center items-center flex-col sm:flex-row gap-5 sm:gap-10 w-full'>
+                <div className='flex flex-col items-center justify-center w-full gap-5 sm:flex-row sm:gap-10'>
                     <motion.div
                         initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.1 } }}
                         className='flex-1 w-full'
                     >
-                        <Button wfull href="/events/results">View Digex 2024 results</Button>
+                        <Button wfull target="_blank" href="/25/reg">Register Here</Button>
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: "spring", bounce: 0.4, duration: 0.8, delay: 0.2 } }}
+                        className='flex-1 w-full'
+                    >
+                        <Button wfull target="_blank" href="/25/invite">View Brochure</Button>
                     </motion.div>
                 </div>
 
-                <div className='flex flex-col justify-center items-center gap-2'>
+                <div className='flex flex-col items-center justify-center gap-2'>
                     <svg width="29" height="16.5" viewBox="0 0 58 33" fill="none" xmlns="http://www.w3.org/2000/svg" className='animate-bounce'>
                         <path d="M4 4L29 29L54 4" stroke="rgba(255, 255, 255, 0.8)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
@@ -35,10 +41,8 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 gap-20 w-full lg:px-40 '>
+            <div className='grid w-full grid-cols-1 gap-20 sm:grid-cols-2 lg:px-40 '>
                 <Card name="pixelate" src="/images/pixelate.png" />
-                <Card name="phonescape" src="/images/phonescape.png" />
-                <Card name="camistic" src="/images/camistic.png" />
                 <Card name="hires" src="/images/hires.png" />
                 <Card name="creadive" src="/images/creadive.png" />
             </div>
@@ -84,6 +88,7 @@ const Card = (props) => {
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}
+        // onClick={() => { window.open(`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1/${public_id}.jpg`) }}
         >
             <motion.div className="group" variants={cardVariants}>
 
@@ -112,8 +117,8 @@ const Card = (props) => {
                     className="absolute inset-0 rounded-[10px] z-[1] will-change-transform group-hover:[backgroundImage:var(--border-bg)] transition duration-500"
                 />
 
-                <div className="relative z-[5] rounded-[10px]">
-                    <img src={props.src} className='rounded-[12px]' />
+                <div className="relative z-[5] rounded-[10px]" onClick={() => { router.push(`/events/${props.name}`) }}>
+                    <img src={props.src} className='rounded-[12px]' data-cursor-color="#fff" />
                 </div>
             </motion.div>
         </motion.div>

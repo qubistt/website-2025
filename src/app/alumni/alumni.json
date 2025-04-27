@@ -4,24 +4,26 @@
         "members": [
             {
                 "name": "Aikagra Gupta",
-                "role": "Core",
-                "image": ""
-            },
-            {
-                "name": "Niyati Chauhan",
-                "role": "Core",
-                "image": ""
-            },
-            {
-                "name": "Tejas Chowdhary",
-                "role": "Core",
+                "role": "President",
                 "image": ""
             },
             {
                 "name": "Samriddhi",
-                "role": "Core",
+                "role": "President",
                 "image": ""
             },
+            {
+                "name": "Tejas Chowdhary",
+                "role": "Vice-President",
+                "image": ""
+            },
+            {
+                "name": "Niyati Chauhan",
+                "role": "Director",
+                "image": ""
+            },
+            
+            
             {
                 "name": "Vishesh Chaurasia",
                 "role": "Member",

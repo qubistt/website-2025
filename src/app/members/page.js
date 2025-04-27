@@ -15,9 +15,9 @@ export default function Home() {
                         <h1 className='font-greenBrooks text-8xl'>Members</h1>
                     </motion.div>
 
-                    <p className='text-md sm:text-lg font-light text-white/90 text-center'>Meet our team, our jewels in the world of creativity. Get to know the faces behind the lens who make our community vibrant and inspiring.</p>
+                    <p className='font-light text-center text-md sm:text-lg text-white/90'>Meet our team, our jewels in the world of creativity. Get to know the faces behind the lens who make our community vibrant and inspiring.</p>
                 </div>
-                <div className='flex flex-col justify-center items-center gap-2'>
+                <div className='flex flex-col items-center justify-center gap-2'>
                     <svg width="29" height="16.5" viewBox="0 0 58 33" fill="none" xmlns="http://www.w3.org/2000/svg" className='animate-bounce'>
                         <path d="M4 4L29 29L54 4" stroke="rgba(255, 255, 255, 0.8)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
@@ -28,8 +28,8 @@ export default function Home() {
             {
                 membersList.map((item, ind) => {
                     return (
-                        <div key={ind} className='w-full px-10 flex flex-col gap-10 mb-24'>
-                            <h2 className='text-5xl font-greenBrooks'>{item.year} class</h2>
+                        <div key={ind} className='flex flex-col w-full gap-10 px-10 mb-24'>
+                            <h2 className='text-5xl font-greenBrooks'>{item.year} Class</h2>
                             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
                                 {item.members.map((mem, _ind) => {
                                     return (

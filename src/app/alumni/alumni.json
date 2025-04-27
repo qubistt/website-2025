@@ -1,5 +1,72 @@
 [
     {
+        "year": "2024-25",
+        "members": [
+            {
+                "name": "Aikagra Gupta",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Tejas Chowdhary",
+                "role": "Vice-President",
+                "image": ""
+            },
+            {
+                "name": "Niyati Chauhan",
+                "role": "Director",
+                "image": ""
+            },
+          
+            {
+                "name": "Samriddhi",
+                "role": "Core",
+                "image": ""
+            },
+            {
+                "name": "Vishesh Chaurasia",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Tanisha Singhania",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shilky Agrawal",
+                "role": "Member",
+                "image": ""
+            },
+
+            {
+                "name": "Shaurya Datta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Siyona Arora",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Advaitt Pahwa",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shiven Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Muanhlunsang Guite",
+                "role": "Member",
+                "image": ""
+            }
+        ]
+    },
+    {
         "year": "2023-24",
         "members": [
             {

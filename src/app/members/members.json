@@ -3,70 +3,25 @@
         "year": "12th",
         "members": [
             {
-                "name": "Aikagra Gupta",
+                "name": "Aditya Goel",
                 "role": "Core",
                 "image": ""
             },
             {
-                "name": "Niyati Chauhan",
+                "name": "Rajvir Ajmani",
                 "role": "Core",
                 "image": ""
             },
+            {   
+                "name": "Advaith Sai Panda", 
+                "role": "Core", 
+                "image": "" 
+            },
             {
-                "name": "Tejas Chowdhary",
+                "name": "Ishan Garg",
                 "role": "Core",
                 "image": ""
             },
-            {
-                "name": "Samriddhi",
-                "role": "Core",
-                "image": ""
-            },
-            {
-                "name": "Vishesh Chaurasia",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Tanisha Singhania",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shilky Agrawal",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Muanhlunsang Guite",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shaurya Datta",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Siyona Arora",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Advaitt Pahwa",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Shiven Gupta",
-                "role": "Member",
-                "image": ""
-            }
-        ]
-    },
-    {
-        "year": "11th",
-        "members": [
             {
                 "name": "Shaurya Pratap Srivastava",
                 "role": "Member",
@@ -77,8 +32,29 @@
                 "role": "Member",
                 "image": ""
             },
+
             {
-                "name": "Rajvir Ajmani",
+                "name": "Aarav Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Ananya Sharma",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Siddharth Singh",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Shivansh Gupta",
+                "role": "Member",
+                "image": ""
+            },
+            {
+                "name": "Aarav Jain",
                 "role": "Member",
                 "image": ""
             },
@@ -167,11 +143,7 @@
                 "role": "Member",
                 "image": ""
             },
-            {
-                "name": "Aditya Goel",
-                "role": "Member",
-                "image": ""
-            },
+
             {
                 "name": "Jaiveer",
                 "role": "Member",
@@ -180,7 +152,7 @@
         ]
     },
     {
-        "year": "10th",
+        "year": "11th",
         "members": [
             {
                 "name": "Aarohi Duggal",
@@ -230,7 +202,7 @@
         ]
     },
     {
-        "year": "9th",
+        "year": "10th",
         "members": [
             {
                 "name": "Ayush Goyal",
@@ -275,7 +247,7 @@
         ]
     },
     {
-        "year": "8th",
+        "year": "9th",
         "members": [
             {
                 "name": "Arnav Agarwal",
@@ -300,7 +272,7 @@
         ]
     },
     {
-        "year": "7th",
+        "year": "8th",
         "members": [
             {
                 "name": "Shiven Batra",

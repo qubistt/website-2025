@@ -41,11 +41,11 @@ export default function Home() {
 
             <div className='flex flex-col items-center justify-center gap-14'>
                 <h1 className='text-4xl text-center sm:text-6xl font-greenBrooks'>Supported By</h1>
-                <div className='flex flex-col items-center justify-center gap-8 px-4 py-4 sm:flex-row sm:gap-10'>
-                    <img src="/images/ManavRachna.png" alt='Manav Rachna' style={{ width: "400px", height: "196px" }} className='w-3/4 sm:w-auto max-w-[300px] sm:max-w-none'/>
-                    <img src="/images/MalhotraColorLab.png" alt='Malhotra Color Lab' style={{ width: "150px", height: "150px" }} className='w-1/2 sm:w-auto max-w-[150px] sm:max-w-none'/>
-                    <img src="/images/ExpressBuilders.jpg" alt='Express Builders' style={{ width: "400px", height: "128px" }} className="rounded-md w-full sm:w-auto max-w-[400px] sm:max-w-none" />
-                    <img src="/images/SmilingTree.jpg" alt='Smiling Tree' style={{ width: "400px", height: "93.4px" }} className='rounded-md w-full sm:w-[auto] max-w-[400px] sm:max-w-none'/>
+                <div className='flex flex-col items-center justify-center gap-8 px-4 py-8'>
+                    <img src="/images/ManavRachna.png" alt='Manav Rachna' style={{ width: "400px", height: "196px" }} className='w-3/4'/>
+                    <img src="/images/MalhotraColorLab.png" alt='Malhotra Color Lab' style={{ width: "150px", height: "150px" }} className='w-1/2'/>
+                    <img src="/images/ExpressBuilders.jpg" alt='Express Builders' style={{ width: "400px", height: "128px" }} className="w-full rounded-md " />
+                    <img src="/images/SmilingTree.jpg" alt='Smiling Tree' style={{ width: "400px", height: "93.4px" }} className='w-full rounded-md '/>
                 </div>
             </div>
 

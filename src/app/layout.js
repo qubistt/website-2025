@@ -23,8 +23,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-    const notification = "Digex 2025 registrations open till 9th May!"
-    const link = "/events"
+    const notification = "Hi-Res Prompt Countdown is live! Check it out now!"
+    const link = "/events/hires"
 
     return (
         <html lang="en">

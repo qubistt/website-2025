@@ -48,8 +48,16 @@ export default function Home() {
                     <img src="/images/SmilingTree.jpg" alt='Smiling Tree' style={{ width: "400px", height: "93.4px" }} className='w-full rounded-md '/>
                 </div>
             </div>
-
-            <iframe width="914" height="514" className='w-[90vw] h-[calc(0.56*90vw)] sm:w-[80vw] sm:h-[calc(0.56*80vw)] max-h-[calc(100vh-100px)] max-w-[calc(1.77*calc(100vh-100px))] rounded-2xl' src="https://www.youtube.com/embed/pQGoO0g_CEk" title="Digex 2024 Trailer" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className="flex justify-center w-full my-12 sm:my-20">
+                <iframe 
+                    className="w-[90vw] h-[50.625vw] max-w-[1000px] max-h-[562.5px] rounded-lg shadow-lg"
+                    src="https://www.youtube.com/embed/NTD1iWD65ko" 
+                    title="Elementum | Digex 2025 Trailer" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen
+                ></iframe>
+            </div>
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-20 mt-[100px] sm:mt-[200px] px-[5vw] sm:px-[6vw] xl:px-[10vw]' id="about">
                 <div className='flex flex-col justify-center gap-6 sm:gap-10'>

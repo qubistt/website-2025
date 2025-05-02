@@ -67,7 +67,7 @@ export default function Home() {
                     <p className='font-light text-center text-md sm:text-lg text-white/90'>Explore our annual symposium and join us as we celebrate creativity, passion, and the art of photography.</p>
                 </div>
 
-                <Countdown date={new Date(2025, 4, 3, 6, 0, 0)} renderer={renderer} />
+                <Countdown date={new Date(2025, 4, 2, 23, 30, 0)} renderer={renderer} />
             </div>
 
             <div className={`absolute z-[-1] top-0 left-0 h-screen w-screen [background:linear-gradient(180deg,rgba(0,0,0,0)77.6%,#000000_100%),_url('/images/bg.svg')80%]`}></div>

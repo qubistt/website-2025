@@ -8,11 +8,6 @@
                 "image": ""
             },
             {
-                "name": "Samriddhi",
-                "role": "President",
-                "image": ""
-            },
-            {
                 "name": "Tejas Chowdhary",
                 "role": "Vice-President",
                 "image": ""
@@ -22,8 +17,11 @@
                 "role": "Director",
                 "image": ""
             },
-            
-            
+            {
+                "name": "Samriddhi",
+                "role": "Member",
+                "image": ""
+            },
             {
                 "name": "Vishesh Chaurasia",
                 "role": "Member",
@@ -160,7 +158,17 @@
         "members": [
             {
                 "name": "Sana Chawla",
-                "role": "Member",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Ishita Bhargava",
+                "role": "President",
+                "image": ""
+            },
+            {
+                "name": "Pratishtha Batra",
+                "role": "Vice-President",
                 "image": ""
             },
             {
@@ -169,17 +177,7 @@
                 "image": ""
             },
             {
-                "name": "Ishita Bhargava",
-                "role": "Member",
-                "image": ""
-            },
-            {
                 "name": "Aditya Banka",
-                "role": "Member",
-                "image": ""
-            },
-            {
-                "name": "Pratishtha Batra",
                 "role": "Member",
                 "image": ""
             },
@@ -284,7 +282,7 @@
             },
             {
                 "name": "Vivaann Pahwa",
-                "role": "President",
+                "role": "Vice-President",
                 "image": ""
             },
             {

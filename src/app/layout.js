@@ -23,8 +23,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-    const notification = "Hi-Res Prompt Countdown is live! Check it out now!"
-    const link = "/events/hires"
+    const notification = "Results are out!"
+    const link = "/events/results"
 
     return (
         <html lang="en">

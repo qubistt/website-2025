@@ -1,8 +1,6 @@
 'use client'
 import Button from '@/components/Button';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-import Countdown from 'react-countdown';
 
 export default function Home() {
 

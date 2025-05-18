@@ -31,15 +31,15 @@ export default function Results() {
                 <div className='w-full md:w-3/4 lg:w-3/5 flex flex-col bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.15)] rounded-md text-xs sm:text-sm md:text-base mb-4'>
                     <div className='flex flex-row border-[rgba(255,255,255,0.15)] border-b'>
                         <div className='w-1/3 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)]'>Winner</div>
-                        <div className='w-2/3 px-3 py-2 md:px-6'>DPS Faridabad</div>
+                        <div className='w-2/3 px-3 py-2 md:px-6'>Delhi Public School Sushant Lok</div>
                     </div>
                     <div className='flex flex-row border-[rgba(255,255,255,0.15)] border-b'>
                         <div className='w-1/3 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)]'>First Runners Up</div>
-                        <div className='w-2/3 px-3 py-2 md:px-6'>Amity International</div>
+                        <div className='w-2/3 px-3 py-2 md:px-6'>Amity International School Gurgaon Sector 46</div>
                     </div>
                     <div className='flex flex-row '>
                         <div className='w-1/3 px-3 md:px-6 py-2 border-r border-[rgba(255,255,255,0.15)]'>Second Runners Up</div>
-                        <div className='w-2/3 px-3 py-2 md:px-6'>Delhi Public School Sushant Lok</div>
+                        <div className='w-2/3 px-3 py-2 md:px-6'>Delhi Public School Faridabad</div>
                     </div>
                 </div>
             </div>

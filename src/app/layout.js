@@ -23,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-    const notification = "Digex 2025 Inductions are now open! Click here to register before Monday, 23rd May!"
+    const notification = "Digex 2025 Inductions are now open! Click here to register before Monday, 26th May!"
     const link = "https://bit.ly/digex25"
 
     return (
